@@ -1,0 +1,17 @@
+<!-- templates/use_file.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protected Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <h1>Welcome to the Protected Page</h1>
+    <p>This page can only be accessed after logging in.</p>
+    <a href="{{ url_for('logout') }}">Logout</a>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

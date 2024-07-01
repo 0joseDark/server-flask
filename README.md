@@ -21,3 +21,5 @@ project/
 ├── app.py                  (ponto de entrada para o servidor Flask)
 └── requirements.txt        (arquivo de requisitos do Python)
 
+# pip install Flask Flask-Mail Flask-WTF
+
